@@ -19,18 +19,6 @@ This assignment involves creating a PHP application that retrieves and displays 
 - Displays the data in a user-friendly format.
 - Utilizes PHP for data processing and presentation.
 
-## Tools and Technologies
-
-- PHP for server-side scripting.
-- Bahrain Open Data Portal API for data retrieval.
-- HTML/CSS for frontend presentation (if applicable).
-
-## How to Run
-
-1. Clone or download the repository.
-2. Set up a local server (e.g., XAMPP, WAMP) and place the files in the appropriate directory.
-3. Configure any required API credentials or URLs in the application.
-4. Open the application in a browser via the local server.
 
 ## Acknowledgments
 
