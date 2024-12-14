@@ -1,0 +1,17 @@
+/* Ensure tables are scrollable on small screens */
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+}
+
+/* Adjust table styling for better responsiveness */
+.table {
+  width: 100%;
+  border-spacing: 0;
+  text-align: left;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Alternate row coloring for readability */
+}

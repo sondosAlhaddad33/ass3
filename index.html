@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>University of Bahrain Students Data</title>
+  <!-- Linking Pico CSS for simple styling -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@picocss/pico@1.5.10/css/pico.min.css"
+  />
+  <!-- Linking custom styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>University of Bahrain Students Data</h1>
+    <!-- Wrapping the table with an overflow container -->
+    <div class="table-container" style="overflow: auto;">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Semester</th>
+            <th>The Programs</th>
+            <th>Nationality</th>
+            <th>Colleges</th>
+            <th>Number of Students</th>
+          </tr>
+        </thead>
+        <tbody id="data-table">
+          <!-- Rows will be added dynamically -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <script src="Untitled-3.js"></script>
+</body>
+</html>
