@@ -17,7 +17,6 @@ This assignment involves creating a PHP application that retrieves and displays 
 - Connects to the Bahrain Open Data Portal's public API.
 - Retrieves nationality data for UOB students.
 - Displays the data in a user-friendly format.
-- Utilizes PHP for data processing and presentation.
 
 
 ## Acknowledgments
